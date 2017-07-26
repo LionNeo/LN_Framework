@@ -1,7 +1,7 @@
 # LN_Framework
 ## 1.支持cocoapods
 	pod 'LN_Framework'
-然后
+然后  
 pod install OR pod update
 	
 ## 2.使用说明
