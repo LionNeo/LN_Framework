@@ -14,4 +14,5 @@
 
 ### 解决
 1.终端输入rm ~/Library/Caches/CocoaPods/search_index.json
+
 2.删除成功后再执行pod search 
