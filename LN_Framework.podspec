@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name     = 'LN_Framework'
-  s.version  = '1.0.0'
+  s.version  = '1.0.1'
   s.ios.deployment_target = '8.0'
   s.license= { :type => "MIT", :file => "LICENSE" }
   s.summary  = 'a simple label make by LionNeo'
@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
                    DESC
   s.source   = { :git => 'https://github.com/LionNeo/LN_Framework.git', :tag => s.version.to_s }
   # s.source_files = 'LN_Framework/*.{framework}'
-  s.ios.vendored_frameworks = 'LN_Framework/*.{framework}'
+  s.ios.vendored_frameworks = 'LN_Framework/ReactiveObjC.framework'
   s.requires_arc = true
 
 
