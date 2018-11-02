@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name     = 'LN_Framework'
-  s.version  = '1.0.2'
+  s.version  = '1.1.0'
   s.ios.deployment_target = '8.0'
   s.license= { :type => "MIT", :file => "LICENSE" }
   s.summary  = '添加了ReactiveObjC.framework库 make by LionNeo'
