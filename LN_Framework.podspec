@@ -7,11 +7,11 @@ Pod::Spec.new do |s|
   s.homepage = 'http://git.oschina.net/lionneo'
   s.authors   = { 'Lion_Neo' => '123624331@qq.com'}
   s.description  = <<-DESC 
-                          更新了ReactiveObjC.framework
+                          更新了ReactiveObjC.framework,集成了ReactiveObjC版本为3.1.0
                    DESC
   s.source   = { :git => 'https://github.com/LionNeo/LN_Framework.git', :tag => s.version.to_s }
   # s.source_files = 'LN_Framework/*.{framework}'
-  s.ios.vendored_frameworks = 'LN_Framework/ReactiveObjC(3.0.1).framework'
+  s.ios.vendored_frameworks = 'LN_Framework/ReactiveObjC.framework'
   s.requires_arc = true
 
 
