@@ -1,7 +1,13 @@
 Pod::Spec.new do |s|
   s.name     = 'LN_Framework'
-  s.version  = '1.1.0'
-  s.ios.deployment_target = '8.0'
+  s.version  = '1.1.1'
+
+  s.osx.deployment_target = "10.9"
+  s.ios.deployment_target = "8.0"
+  #s.tvos.deployment_target = "9.0"
+  s.watchos.deployment_target = "2.0"
+
+
   s.license= { :type => "MIT", :file => "LICENSE" }
   s.summary  = '添加了ReactiveObjC.framework库 make by LionNeo'
   s.homepage = 'http://git.oschina.net/lionneo'
@@ -11,7 +17,7 @@ Pod::Spec.new do |s|
                    DESC
   s.source   = { :git => 'https://github.com/LionNeo/LN_Framework.git', :tag => s.version.to_s }
   # s.source_files = 'LN_Framework/*.{framework}'
-  s.ios.vendored_frameworks = 'LN_Framework/ReactiveObjC.framework'
+  s.vendored_frameworks = 'LN_Framework/ReactiveObjC.framework'
   s.requires_arc = true
 
 
